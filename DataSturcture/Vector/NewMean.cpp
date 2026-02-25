@@ -54,7 +54,7 @@ int wrong_answer2() {
     int len = 0;
     cin >> len;
 
-    int Score[len] = {0}; // 동적으로 원소값 입력 받음
+    int Score[len] = {0}; // 동적으로 원소값 입력 받음 <--> 답지는 배열을 고정된 형태로 만들었음(실행시간에 차이가 없기 때문 아마도?)
     int ele = 0;
     for (int i = 0; i < len; i++){
         cin >> ele;
