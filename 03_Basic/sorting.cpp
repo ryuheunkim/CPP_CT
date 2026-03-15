@@ -91,5 +91,7 @@ void custom_compare_with_struct_overload(){
 }
 
 int main(){
-    custom_compare_with_struct_overload();
+    double Arr[5] = {0};
+    cout << sizeof(Arr) << "\n";
+    cout << sizeof(int);
 }

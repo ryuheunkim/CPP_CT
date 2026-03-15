@@ -1,7 +1,16 @@
 # include <iostream>
 using namespace std;
+/*
+백준 11660번
+*/
+
 
 int main() {
+
+    ios :: sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
     // 원본 배열 선언
     int Matrix[1025][1025] = {0};
     int Num, Query = 0; // Num
